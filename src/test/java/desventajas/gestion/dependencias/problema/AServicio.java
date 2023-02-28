@@ -13,4 +13,8 @@ public class AServicio {
     }
 
 
+    public ObjectA getObjectById(String s) {
+        return aRepository.findById(s);
+    }
+
 }
